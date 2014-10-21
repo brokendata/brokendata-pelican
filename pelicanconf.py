@@ -11,6 +11,12 @@ TIMEZONE = 'Europe/Paris'
 
 
 DEFAULT_LANG = u'en'
+DISPLAY_PAGES_ON_MENU =False
+DEFAULT_CATEGORY = 'Blog'
+
+MENUITEMS = (
+            ('About','/index.html'),)
+
 
 THEME = 'pelican-bootstrap3'
 # Feed generation is usually not desired when developing
@@ -35,6 +41,3 @@ PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.include_code', 'liquid_tags.notebook']
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-
-
-BOOTSTRAP_THEME='superhero' #nice but, background doesn't work well with code as is
