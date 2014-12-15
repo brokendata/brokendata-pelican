@@ -1,7 +1,7 @@
 Title:  Setting up Scala Activator for IDEA
 Date: 2014-12-13 8:21
 Tags: Scala, Activator, Play
-Category: blog
+Category: Technical Debt	
 Slug: blog
 Author: Ryan Wheeler
 Summary: Quickly setup Play project for Idea with activator 

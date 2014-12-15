@@ -14,8 +14,8 @@ DEFAULT_LANG = u'en'
 DISPLAY_PAGES_ON_MENU =False
 DEFAULT_CATEGORY = 'Blog'
 
-MENUITEMS = (
-            ('About','/index.html'),)
+#MENUITEMS = (
+ #           ('About','/index.html'),)
 
 
 THEME = 'pelican-bootstrap3'
@@ -23,6 +23,9 @@ THEME = 'pelican-bootstrap3'
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
+
+BANNER = 'images/banner.jpg'
+BANNER_ALL_PAGES = True
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
@@ -33,11 +36,14 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
+
 NOTEBOOK_DIR = '/home/ryan/site/brokendata/notebooks/'
 DEFAULT_PAGINATION = 10
-PLUGIN_PATHS = 'pelican-plugins'
+PLUGIN_PATH = 'pelican-plugins'
 PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.youtube', 'liquid_tags.vimeo',
            'liquid_tags.include_code', 'liquid_tags.notebook']
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+PYGMENTS_STYLE='default'
