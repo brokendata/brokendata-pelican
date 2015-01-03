@@ -39,7 +39,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 NOTEBOOK_DIR = '/home/ryan/site/brokendata/notebooks/'
 DEFAULT_PAGINATION = 10
-PLUGIN_PATH = 'pelican-plugins'
+PLUGIN_PATHS = 'pelican-plugins'
 PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.youtube', 'liquid_tags.vimeo',
            'liquid_tags.include_code', 'liquid_tags.notebook']
@@ -47,3 +47,5 @@ PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
 #RELATIVE_URLS = True
 
 PYGMENTS_STYLE='default'
+
+BOOTSTRAP_NAVBAR_INVERSE=True
